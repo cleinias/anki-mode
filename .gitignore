@@ -1,0 +1,98 @@
+# Packages                                           #
+# it's better to unpack these files and commit       #
+# the raw source.                                    #
+# git has its own built in compression methods.      #
+######################################################
+
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Do not save tex files, generate them from lyx      # 
+######################################################
+*.tex
+
+
+# Various latex auxiliary files and lyx backup files #
+######################################################
+
+*.aux
+*.bcf
+*.blg
+*.idx
+*.log
+*.lyx~
+*.lyx#
+*.pdf
+*.png
+*.tex~
+*.tex.backup
+*.bib#
+*.bbl
+*.run.xml
+*.toc
+*.tdo		# Todo package aux file
+*.lox     	# Fixme package aux file
+*.bib.sav	# jabref backup files
+*.bib.bak	# jabref backup files
+
+# do not save pdf files. compile from lyx/latex #
+#################################################
+
+*.pdf
+
+# do not remove graphic format files
+# (which are usually cropped images
+###########################################################
+
+!*.eps
+!*.png
+!.gif
+!.svg
+
+# from github templates --> emacs template (modified))
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Org-mode
+.org-id-locations
+*_archive
+
+# flymake-mode
+*_flymake.*
+
+# eshell files
+/eshell/history
+/eshell/lastdir
+
+
+# reftex files
+*.rel
+
+
+# cask packages
+.cask/
+dist/
+
+# Flycheck
+flycheck_*.el
+
+# projectiles files
+.projectile
+
+# directory configuration
+.dir-locals.el
+
+
